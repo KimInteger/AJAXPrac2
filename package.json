@@ -1,0 +1,11 @@
+{
+  "name": "ajaxprac2",
+  "version": "1.0.0",
+  "description": "\"제과점 데이터 받아와서 사용해보기 AJAX연습\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KimInteger",
+  "license": "MIT"
+}
