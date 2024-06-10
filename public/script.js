@@ -16,6 +16,10 @@ xhr.addEventListener('load',()=>{
 
   console.log(result);
 
+  let data = result.body.items;
+
+  console.log(data);
+
 });
 
 xhr.send();
