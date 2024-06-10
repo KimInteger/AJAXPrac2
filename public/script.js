@@ -20,6 +20,11 @@ xhr.addEventListener('load',()=>{
 
   console.log(data);
 
+  data.forEach((item)=>{
+    let listItem = document.createElement('li');
+    listItem.textContent = item.mtlty;
+    list.appendChild(listItem);
+  });
 });
-
 xhr.send();
+
